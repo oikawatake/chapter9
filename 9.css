@@ -60,6 +60,28 @@
   background-color: #aaaaaa;
 }
 
-@media screen and (max-width: 425px) {
-  
+@media screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+    margin: 50px 5% ;
+    display: block;
+  }
+
+  .box {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    height: 150px;
+    margin: 10px 10px 0 10px;
+  }
+
+  .image2 {
+    height: 150px;
+  }
+
+  .image3 {
+    height: 150px;
+  }
 }
